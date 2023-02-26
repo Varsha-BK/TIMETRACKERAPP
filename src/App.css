@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.app{
+  display: flex;
+}
+.sidebar{
+  background-color: rgb(243, 244, 245);
+  color: blue;
+  align-items: center;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.link{
+  color: blue;
+  padding: 30px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.nav-link:hover{
+  background-color: rgb(128, 128, 229);
+  color: white;
+  transition: all 0.5s;
+}
+.nav-link.active{
+  color: blue;
+}
